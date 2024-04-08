@@ -1,0 +1,87 @@
+@media(max-width: 426px){
+    .navbar-text{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .navbar-phone-number{
+        display: none;
+    }
+
+    .carousel{
+        width: 100%;
+        border: none;
+        border-radius: 0;
+    }
+
+    .about-us{
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .explane-main{
+        display: block;
+    }
+
+    .cat-text{
+        color: white;
+    }
+
+    .container{
+        padding: 0;
+    }
+
+    .col{
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .row{
+        margin: 0;
+        display: block;
+    }
+
+    .card{
+        border-radius: 0;
+        width: 100%;
+        height: 500px;
+    }
+    
+    .card-text{
+        position: absolute;
+        top: 25%;
+        left: 30%;
+    }
+
+    .card img{
+        width: 100%;
+        height: 100%;
+        filter: blur(.5);
+    }
+
+    #cake-like{
+        text-align: center;
+    }
+
+    .make-order-container{
+        width: 100%;
+        background-image: url(https://img.freepik.com/premium-photo/christmas-cake-on-white-background_308643-1289.jpg);
+    }
+
+    .cake-img{
+        display: none;
+    }
+
+    .contact-info{
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 320px){
+
+
+    .contact-info{
+        font-size: 20px;
+    }
+}
